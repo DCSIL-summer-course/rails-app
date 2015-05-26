@@ -1,0 +1,14 @@
+Hi,
+
+I thought I’d give a brief update into how the workshops are going and my progress in general. This past week I did two workshops, 1) “Getting Started” and 2) “Ruby on Rails part 1”. Additionally, I met with 3 teams and helped them with technical decisions based on their product’s specifications.
+
+The biggest takeaway for me was that the students’ technical skills are highly variable and while some students kept up during the workshop, others did not. After the second workshop I talked to a couple eager students and asked for some feedback. Based on their suggestions I created a detailed walk through of the 2nd tech workshop (including commands and code). This has the added benefit of allowing students who can’t come during the day to follow along. 
+
+My goal with the next few workshops is ensuring that all students can keep up while keeping the more experience students challenged.
+
+This Tuesday Mike Spears (MADlab) will give a workshop on iOS and Xcode development. On Thursday I’ll give part-2 of the Ruby on Rails workshops. 
+
+Tomorrow night I will send out emails to tech mentors connecting them with their respective groups.
+
+Best,
+Liam
