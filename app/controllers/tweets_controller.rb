@@ -1,10 +1,15 @@
 class TweetsController < ApplicationController
   before_action :set_tweet, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
 
   # GET /tweets
   # GET /tweets.json
   def index
-    @tweets = Tweet.all
+    if user_signed_in?
+      @tweets = current_user.tweets
+    else
+      @tweets = Tweet.all
+    end
   end
 
   # GET /tweets/1
