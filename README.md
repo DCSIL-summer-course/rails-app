@@ -22,7 +22,8 @@ psql
 then, once psql has loaded:
 
 ```sql
-DROP DATABASE twitter-clone_development;
+DROP DATABASE twitterclone_development;
+DROP DATABASE twitterclone_test;
 ```
 
 The run the `rake` commands again.
