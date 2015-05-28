@@ -1,21 +1,32 @@
-<ul>
-  <% if user_signed_in? %>
-  
-  <li>
-    <%= link_to current_user.email, '/' %>
-  </li>
-  <li>
-    <%= link_to "Sign Out", destroy_user_session_path, method: "DELETE" %>
-  </li>
+<header class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <%= link_to "Twitter Clone", root_path, class: "navbar-brand" %>
+    </div>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <% if user_signed_in? %>
+        
+        <li>
+          <%= link_to current_user.email, '/' %>
+        </li>
+        <li>
+          <%= link_to "Sign Out", destroy_user_session_path, method: "DELETE" %>
+        </li>
 
-  <% else %>
+        <% else %>
 
-  <li>
-    <%= link_to "Sign In", new_user_session_path %>
-  </li>
-  <li>
-    <%= link_to "Register", new_user_registration_path %>
-  </li>
+        <li>
+          <%= link_to "Sign In", new_user_session_path %>
+        </li>
+        <li>
+          <%= link_to "Register", new_user_registration_path %>
+        </li>
 
-  <% end %>
-</ul>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
